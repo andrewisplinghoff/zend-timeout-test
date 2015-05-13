@@ -1,0 +1,30 @@
+{
+    "name": "viison/zend-timeout-test",
+    "description": "Zend Timeout Test",
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "zendframework/zendframework",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/VIISON/zf2.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "classmap": [""]
+            }
+        }
+    }
+],
+
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "dev-master"
+    }
+}
